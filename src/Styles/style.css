@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.app{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar{
+    background-color: #c7ceea;
+}
+
+input{
+    outline: none;
+    padding: 5px;
+}
+
+
+/*City Display Window*/
+.city-display{
+    width: 400px;
+    height: 200px;
+}
+
+.weather-info{
+    display: flex;
+    flex-direction: row;
+}
+
+#left-side-info, #right-side-info{
+    width: 50%;
+}
+
+.forecast-container{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
